@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Playfair Display", serif;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+div{
+    position: relative;
+}
+form{
+    position:relative ;
+    width: 30%;
+    height: 80vh;
+   border: 2px solid black;
+   margin-top: 20px;
+   padding: 0px 20px 15px 20px;
+}
+input{
+    background-color: rgb(189, 235, 245);
+    width: 85%;
+    height: 5vh;
+    /* padding for moving text */
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+.fa-lock{
+    position: absolute;
+    top:81%;
+    left: 3%;
+}
+.fa-envelope{
+    position: absolute;
+    top: 28%;
+    left: 3%;
+}
+button{
+    width: 89%;
+    height:5vh ;
+    background-color: rgb(213, 231, 49);
+    border-radius: 10px;
+    border: navajowhite;
+    color: aliceblue;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    top: 80%;
+}
+a{
+    display: block;
+    text-align: center;
+   
+}
+h5{
+    display: flex;
+    justify-content: center;
+}
+#check{
+    width: 15px;
+    height: 10vh;
+}
+h4{
+        color: rgb(249, 249, 13);
+        display: flex;
+        justify-content: center;
+    
+}
+label{
+    color: black;
+}
+#lab{
+    position: absolute;
+    top: 76%;
+}
+login{
+    position: relative;
+}
+.fa-face-smile-beam{
+    position: absolute;
+    top: 19%;
+    left: 1%;
+}
